@@ -87,6 +87,9 @@ body {
   background-color: rgb(204, 147, 147);
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+  display: flex; /* Use flexbox to arrange items */
+  gap: 15px; /* Add some space between the controls */
+  align-items: center;
 }
 
 
@@ -110,4 +113,13 @@ body {
   font-size: 1rem;
   font-style: italic;
   color: #333;
+
+}
+#select-show {
+    background-color: #a88686;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    min-width: 250px;
 }
